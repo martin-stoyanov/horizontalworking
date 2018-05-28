@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "NODE_ENV=production next start -p ${PORT}"
+    "start": "next start",
+    "start-dev": "NODE_ENV=production next start",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.5.1",
