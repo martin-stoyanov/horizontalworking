@@ -1,0 +1,37 @@
+{
+  "name": "horizontal-working",
+  "version": "1.0.0",
+  "proxy": "https://pacific-plateau-31204.herokuapp.com/",
+  "engines": {
+    "node": "10.0.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.5.1",
+    "eslint": "^4.19.1",
+    "grommet": "^2.0.0-beta.1",
+    "grommet-controls": "^0.25.3",
+    "grommet-icons": "^0.16.0",
+    "next": "latest",
+    "pre-commit": "^1.2.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-imports": "^1.5.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-async-await": "0.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "pre-commit": [
+    "check"
+  ]
+}
