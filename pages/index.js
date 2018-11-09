@@ -8,7 +8,7 @@ import Layout from '../components/layout';
 const Index = () => (
   <Layout>
     <Box direction='column' align='center'>
-      <Image style={{ width: '100%', height: 'auto' }} src='https://lh3.googleusercontent.com/ln7s-kJXA_7J00s4MzSCYowWWogblB2qdB1tI21Vc0vmFPwIQHCMik8NVixjQ1oce5R6uidBBkeUsiJoNTlwklJjYZlDpK6BwVm9rMrcQK9DdZIlFmMwJFOJTwsHvd9aA0tAyG4OHf82jUHxWcMFqJjJfpMLr41Qdie9E0xtcleOuFhB2ke2Sl5d054Jx9C0SGrKkHeyLZr0zpQvh6lzxH2GKy9-mQMDYWMNGWjVTq27Ck1yAeqt5Z0H-tCWtigF7BdLRrnQaNm9AkJr7Rz__y0-P9SAe3ShzQ9sdxg0ygg9QxxqWQ7DL7sRbDLARRIa9kGzAOFV75DgR3ILO7ii39tQkuu_7eXqO0oV7OTU1yG4PWsmrzfWPWW7ew9vJVTocpYZeKndyJyppaczsOkssM4lORfoaPojhHnCirTSqN4XDTm5zsPNXdjHkKOCxy-iDepspZoXMWsBc_TP1fRzQj6REL1Wz9sZB79cG6bGqTcBv_txsB9jotymfUIHqwiunhR_Wu9K1Adfa5f1PY7ivKDlRuq2TM_unq7_tMtIeUWeciPPuc1bVySmrhKGsGg3iLrCTrpeTTJtHh4XtVqDc3vyPCg7pCUYYGa8Sx63=w1440-h456-no' />
+      <Image style={{ width: '100%', height: '30%' }} src='/static/img/horizontal_monkey.jpg' />
     </Box>
     <Box align='center' gap='medium' background='dark-2' pad='medium'>
       <Heading margin='none' size='medium'>Horizontal is our natural position</Heading>
